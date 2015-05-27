@@ -1,0 +1,31 @@
+{
+    "name": "dojodevelopers/skeleton",
+    "description": "Dojo Skeleton",
+    "keywords": [
+        "dojo",
+        "developers"
+    ],
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dojo\\": "src",
+            "Dojo\\Tests\\": "tests"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable"
+}
